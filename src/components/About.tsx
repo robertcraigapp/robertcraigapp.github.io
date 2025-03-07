@@ -43,15 +43,6 @@ const About = () => {
                             financial stakeholders, we aim to create meaningful
                             change.
                         </p>
-                        <h3 className='text-xl font-semibold mb-4'>
-                            Coalition Strengths
-                        </h3>
-                        <ul className='list-disc list-inside text-gray-600 space-y-2'>
-                            <li>Diverse membership across organizations</li>
-                            <li>Comprehensive policy and messaging toolkit</li>
-                            <li>Strong digital and media presence</li>
-                            <li>Direct engagement with policymakers</li>
-                        </ul>
                     </div>
                 </div>
             </div>

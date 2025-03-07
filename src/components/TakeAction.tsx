@@ -20,9 +20,9 @@ const TakeAction = () => {
                         </p>
                         <a
                             href='#'
-                            className='mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md'
+                            className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
                         >
-                            Join Now
+                            <span className='text-blue-100'>Join Now</span>
                         </a>
                     </div>
                     <div className='bg-white p-6 rounded-lg shadow-md'>
@@ -36,9 +36,11 @@ const TakeAction = () => {
                         </p>
                         <a
                             href='#resources'
-                            className='mt-4 inline-block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md'
+                            className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
                         >
-                            View Resources
+                            <span className='text-blue-100'>
+                                View Resources
+                            </span>
                         </a>
                     </div>
                     <div className='bg-white p-6 rounded-lg shadow-md'>
@@ -50,9 +52,9 @@ const TakeAction = () => {
                         </p>
                         <a
                             href='#'
-                            className='mt-4 inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md'
+                            className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
                         >
-                            Get Involved
+                            <span className='text-blue-100'>Get Involved</span>
                         </a>
                     </div>
                 </div>
