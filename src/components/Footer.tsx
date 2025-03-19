@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className='mt-8 border-t border-gray-700 pt-4 text-center'>
                 <p className='text-sm text-gray-400'>
-                    © 2025 End Private Prisons Arizona. All rights reserved.
+                    © 2025 Arizona Against Private Prisons. All rights reserved.
                 </p>
             </div>
         </footer>
