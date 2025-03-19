@@ -20,7 +20,7 @@ const Footer = () => {
                         Contact & Social
                     </h3>
                     <p className='mt-4 text-gray-400'>
-                        Email: contact@endprivateprisonsaz.org
+                        Email: contact@azagainstprivateprisons.org
                     </p>
                     <Socials />
                 </div>
