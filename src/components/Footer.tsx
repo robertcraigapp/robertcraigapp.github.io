@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='max-w-7xl mx-auto grid md:grid-cols-2 gap-8'>
                 <div>
                     <h3 className='text-xl font-semibold mb-4'>
-                        End Private Prisons Arizona
+                        Arizona Against Private Prisons
                     </h3>
                     <p className='text-gray-400'>
                         A coalition dedicated to ending the privatization of
