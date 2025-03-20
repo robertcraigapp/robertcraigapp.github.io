@@ -4,7 +4,7 @@ import {
     DisclosurePanel,
 } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
-import MainLogo from '../assets/end-private-prisons-arizona-high-resolution-logo.png';
+import MainLogo from '../assets/AAPP Logo (Color).png';
 
 const navigation = [
     { name: 'About', href: '#', current: false },
@@ -22,7 +22,7 @@ export default function Navigation() {
     return (
         <Disclosure as='nav' className='bg-gray-800'>
             <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
-                <div className='relative flex h-30 items-center justify-between'>
+                <div className='relative flex h-20 items-center justify-between'>
                     <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                         {/* Mobile menu button*/}
                         <DisclosureButton className='group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset'>
@@ -43,7 +43,7 @@ export default function Navigation() {
                             <img
                                 alt='End Private Prisons Arizona'
                                 src={MainLogo}
-                                className='h-30 w-auto'
+                                className='h-19 w-auto'
                             />
                         </div>
                     </div>
@@ -60,11 +60,13 @@ export default function Navigation() {
                                         className={classNames(
                                             item.current
                                                 ? 'bg-gray-900 text-white'
-                                                : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                                : 'text-gray-300 hover:text-black',
                                             'rounded-md px-3 py-2 text-sm font-medium'
                                         )}
                                     >
-                                        {item.name}
+                                        <span className='text-gray-100 hover:text-gray-500'>
+                                            {item.name}
+                                        </span>
                                     </a>
                                 ))}
                             </div>
@@ -88,7 +90,7 @@ export default function Navigation() {
                                 'block rounded-md px-3 py-2 text-base font-medium'
                             )}
                         >
-                            {item.name}
+                            <span className='text-gray-100'>{item.name}</span>
                         </DisclosureButton>
                     ))}
                 </div>
