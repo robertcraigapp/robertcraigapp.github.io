@@ -5,13 +5,11 @@ import {
 } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import MainLogo from '../assets/AAPP Logo (Color).png';
+import { Link } from 'wouter';
 
 const navigation = [
-    { name: 'About', href: '#', current: false },
-    { name: 'Learn More', href: '#', current: false },
-    { name: 'Get Involved', href: '#', current: false },
-    { name: 'Resources', href: '#', current: false },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Home', href: '/', current: false },
+    { name: 'Resources', href: '/resources', current: false },
 ];
 
 function classNames(...classes: any) {
@@ -51,7 +49,7 @@ export default function Navigation() {
                         <div className='hidden sm:ml-6 sm:block'>
                             <div className='flex space-x-4'>
                                 {navigation.map((item) => (
-                                    <a
+                                    <Link
                                         key={item.name}
                                         href={item.href}
                                         aria-current={
@@ -67,7 +65,7 @@ export default function Navigation() {
                                         <span className='text-gray-100 hover:text-gray-500'>
                                             {item.name}
                                         </span>
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </div>

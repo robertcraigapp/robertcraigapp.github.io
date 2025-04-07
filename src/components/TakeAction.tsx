@@ -1,3 +1,6 @@
+import { Link } from 'wouter';
+import './TakeAction.css';
+
 const TakeAction = () => {
     return (
         <section
@@ -18,12 +21,12 @@ const TakeAction = () => {
                             become part of a diverse network working to end
                             private prisons.
                         </p>
-                        <a
-                            href='#'
-                            className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
+                        <span
+                            //href='#'
+                            className='mt-4 inline-block bg-neutral-200 px-4 p-2 rounded-md noCursor'
                         >
-                            <span className='text-blue-100'>Join Now</span>
-                        </a>
+                            <span className='text-blue-800'>Coming Soon</span>
+                        </span>
                     </div>
                     <div className='bg-white p-6 rounded-lg shadow-md'>
                         <h3 className='text-xl font-semibold mb-4'>
@@ -34,14 +37,14 @@ const TakeAction = () => {
                             educational resources to understand the impact of
                             private prisons.
                         </p>
-                        <a
-                            href='#resources'
+                        <Link
+                            href='/resources'
                             className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
                         >
                             <span className='text-blue-100'>
                                 View Resources
                             </span>
-                        </a>
+                        </Link>
                     </div>
                     <div className='bg-white p-6 rounded-lg shadow-md'>
                         <h3 className='text-xl font-semibold mb-4'>Advocate</h3>
@@ -50,12 +53,12 @@ const TakeAction = () => {
                             help spread awareness about the issues surrounding
                             private prisons.
                         </p>
-                        <a
-                            href='#'
-                            className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
+                        <span
+                            //href='#'
+                            className='mt-4 inline-block bg-neutral-200 px-4 p-2 rounded-md noCursor'
                         >
-                            <span className='text-blue-100'>Get Involved</span>
-                        </a>
+                            <span className='text-blue-800'>Coming Soon</span>
+                        </span>
                     </div>
                 </div>
             </div>

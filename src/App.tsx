@@ -1,21 +1,27 @@
 import './App.css';
 import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import About from './components/About';
-import TakeAction from './components/TakeAction';
+import Main from './components/Main';
+
+import { Link, Route, Switch } from 'wouter';
+import Resources from './components/Resources';
 import Footer from './components/Footer';
 
 function App() {
     return (
         <>
             <div className='bg-white'>
-                <Navigation />
-                <div className='pt-16'>
-                    <Hero />
-                    <About />
-                    <TakeAction />
+                <Route>
+                    <Navigation />
+                </Route>
+                <Switch>
+                    <Route path='/resources' component={Resources} />
+                    <Route>
+                        <Main />
+                    </Route>
+                </Switch>
+                <Route>
                     <Footer />
-                </div>
+                </Route>
             </div>
         </>
     );

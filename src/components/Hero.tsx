@@ -1,3 +1,5 @@
+import { Link } from 'wouter';
+
 const Hero = () => {
     return (
         <div
@@ -20,18 +22,12 @@ const Hero = () => {
                     in Arizona.
                 </p>
                 <div className='flex justify-center space-x-4'>
-                    <a
-                        href='#'
-                        className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
-                    >
-                        <span className='text-blue-100'>Get Involved</span>
-                    </a>
-                    <a
-                        href='#'
+                    <Link
+                        href='/resources'
                         className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
                     >
                         <span className='text-blue-100'>Learn More</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
