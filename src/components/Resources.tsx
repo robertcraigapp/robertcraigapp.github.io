@@ -27,7 +27,7 @@ const Resources = () => {
                             alt=''
                         />
                         <a
-                            href='../src/assets/arizona-infographic.png'
+                            href='../arizona-infographic.png'
                             className='mt-4 inline-block bg-neutral-700 hover:bg-neutral-600 px-4 p-2 rounded-md'
                             target='_blank'
                         >
