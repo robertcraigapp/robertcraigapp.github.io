@@ -2,7 +2,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
 
-import { Link, Route, Switch } from 'wouter';
+import { Route, Switch } from 'wouter';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
 
