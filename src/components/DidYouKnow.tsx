@@ -1,11 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {
-    Navigation,
-    Pagination,
-    Scrollbar,
-    A11y,
-    EffectCoverflow,
-} from 'swiper/modules';
+import { Pagination, EffectCoverflow } from 'swiper/modules';
 import './DidYouKnow.css';
 import '../content/didYouKnowCards';
 import didYouKnowCards from '../content/didYouKnowCards';
