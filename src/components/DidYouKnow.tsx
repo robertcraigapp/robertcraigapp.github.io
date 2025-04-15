@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, EffectCoverflow } from 'swiper/modules';
+import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import './DidYouKnow.css';
 import '../content/didYouKnowCards';
 import didYouKnowCards from '../content/didYouKnowCards';
@@ -25,8 +25,9 @@ const DidYouKnow = () => {
                     slideShadows: true,
                 }}
                 pagination={true}
-                modules={[EffectCoverflow, Pagination]}
-                className='mySwiper'
+                navigation={true}
+                modules={[EffectCoverflow, Navigation, Pagination]}
+                className='DidYouKnowSwiper'
             >
                 <>
                     {didYouKnowCards.map((slide, index) => {
